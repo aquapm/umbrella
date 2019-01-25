@@ -1,0 +1,23 @@
+{
+    "name": "umbrella",
+    "short_desc": "Umbrella parent project",
+    "version": 1,
+    "standalone": true,
+    "in_umbrella": false,
+    "options": [],
+    "files": {
+        "base": [
+            "config/config.exs",
+            ".formatter.exs",
+            ".gitignore",
+            "mix.exs",
+            "README.md",
+            "apps"
+        ],
+        "test": [
+            "config/test.exs",
+            "config/dev.exs",
+            "config/prod.exs"
+        ]
+    }
+}
