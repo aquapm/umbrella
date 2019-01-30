@@ -1,4 +1,3 @@
-# <%= project_name_camel_case %>
+# <%= @project_name_camel_case %>
 
 **TODO: Add description**
-
